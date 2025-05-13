@@ -1,0 +1,5 @@
+char = input('Digite algo:')
+print(char.isupper())
+print(char.isalpha())
+print(char.isalnum())
+print(char.isnumeric())
