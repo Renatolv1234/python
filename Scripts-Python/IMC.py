@@ -1,5 +1,6 @@
 nome = input('Qual seu nome?')
-peso = input('Qual seu peso?')
-altura = input('Qual sua altura?')
+peso = int(input('Qual seu peso?'))
+altura = int(input('Qual sua altura?'))
+imc = peso/altura**2
 
-print(nome, 'seu IMC é', int(peso)/int(altura)**2)
+print('{} seu IMC é {}'.format(nome, imc))

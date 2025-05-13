@@ -1,7 +1,7 @@
 nome = input('Qual seu nome?')
-idade = input('Quantos anos você tem?')
-peso = input('Quanto você pesa?')
-altura = input('Qual sua altura?')
-tmb = 655 + (9.6 * int(peso)) + (1.8 * int(altura)) - (4.7 * int(idade))
+idade = int(input('Quantos anos você tem?'))
+peso = int(input('Quanto você pesa?'))
+altura = int(input('Qual sua altura?'))
+tmb = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade)
 
-print(nome, 'sua TMB é:', tmb)
+print('{} sua TMB é: {}'.format(nome, tmb))

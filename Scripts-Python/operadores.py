@@ -1,12 +1,12 @@
-n1 = input('Digite um numero: ')
-n2 = input('Digite outro numero: ')
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite outro numero: '))
 
-soma = int(n1) + int(n2)
-sub = int(n1) - int(n2)
-mult = int(n1) * int(n2)
-div = int(n1) / int(n2)
+soma = n1 + n2
+sub = n1 - n2
+mult = n1 * n2
+div = n1 / n2
 
-print('A soma de {}'.format(n1),'e {}'.format(n2),'é de {}'.format(soma))
-print('Já a subtração de {}'.format(n1),'e {}'.format(n2),'é de {}'.format(sub))
-print('E a multiplicação de {}'.format(n1),'e {}'.format(n2),'é de {}'.format(mult))
-print('Já a divisão de {}'.format(n1),'e {}'.format(n2),'é de {}'.format(div))
+print('A soma de {} e {} é de {}'.format(n1, n2, soma))
+print('Já a subtração de e {} é de {}'.format(n1, n2, sub))
+print('E a multiplicação de {} e {} é de {}'.format(n1, n2, mult))
+print('Já a divisão de {} e {} é de {}'.format(n1, n2, div))
